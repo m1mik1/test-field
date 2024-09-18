@@ -1,4 +1,4 @@
-package dev.stillsucking.PrintingPattern;
+package dev.stillsucking.printing.patterns;
 
 import java.util.Scanner;
 
