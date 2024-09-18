@@ -17,3 +17,5 @@ public class Rectangle {
                 System.out.print(width[i]);
             }
         }
+    }
+}
