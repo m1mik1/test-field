@@ -1,0 +1,26 @@
+package dev.stillsucking.Counting;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Counting {
+     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+    System.out.println("Enter a number: ");
+         String n= scanner.nextLine();
+         List<Scanner> numbers= new ArrayList<Scanner>(){{add(scanner);}};
+int i=0;
+        n=n.replace(",", "");
+        n=n.replace(".", "");
+        int index=0;
+         while (index < n.length()){
+                index++;
+         }
+    System.out.println("Amount of numbers: " + index);
+
+
+
+     }
+
+ }
