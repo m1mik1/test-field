@@ -1,4 +1,4 @@
-package dev.stillsucking.printing.patterns;
+package dev.stillsucking.printing.patterns.hollowTriangle.;
 
 import java.util.Scanner;
 
