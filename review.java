@@ -7,10 +7,10 @@ import java.util.Scanner;
 //читать методы,функции джава
 public class Main {
     public static void main(String[] args) {
-gcd();
+cheking();
     }
     static void gcd(){
-        System.out.println("Enter two numbers to find GOD: ");
+        System.out.println("Enter two numbers to find gcd: ");
         Integer a=Integer.parseInt(input());
         Integer b=Integer.parseInt(input());
         a = Math.abs(a);
@@ -120,8 +120,8 @@ gcd();
     }
 
     static String input() {
-        Scanner scanner1 = new Scanner(System.in);
-        return scanner1.nextLine();
+        Scanner scanner = new Scanner(System.in);
+        return scanner.nextLine();
     }
 
     static void arraySum() {
@@ -129,7 +129,7 @@ gcd();
         int num2 = Integer.parseInt(input());
         int sum = 0;
         for (int i = 0; i <= num2; i++) {
-            sum = sum + i;
+            sum += i;
         }
         System.out.println("Sum of array numbers is: " + sum);
     }
